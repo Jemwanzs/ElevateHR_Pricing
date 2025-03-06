@@ -125,3 +125,9 @@ body {
 .purple-icon {
     color: #401b5f;
 }
+.icon-image {
+    width: 50px;  /* Adjust size as needed */
+    height: auto;
+    margin-right: 5px; /* Adds space between the icon and text */
+    vertical-align: middle;
+}

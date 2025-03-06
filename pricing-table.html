@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElevateHR;Pricing</title>
+    <link rel="stylesheet" href="pricing-table.css">
+</head>
+<body>
+    <div class="pricing-container">
+        <h2 class="title">Company Size Here <span class="purple-icon">⬇️</span></h2>
+        <input type="number" id="companySize" class="company-size-input" placeholder="Enter company size" min="1">
+        
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="selectAll"></th>
+                    <th>Products</th>
+                    <th>Annual</th>
+                    <th>Semi-Annual</th>
+                    <th>Monthly</th>
+                </tr>
+            </thead>
+            <tbody id="productRows"></tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">Total</th>
+                    <th id="totalAnnual">0</th>
+                    <th id="totalSemiAnnual">0</th>
+                    <th id="totalMonthly">0</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Your Subscription is:</th>
+                    <th id="subscriptionAnnual">0</th>
+                    <th id="subscriptionSemiAnnual">0</th>
+                    <th id="subscriptionMonthly">0</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="pricing-table.js"></script>
+    <script src="protectCode.js"></script>
+</body>
+</html>

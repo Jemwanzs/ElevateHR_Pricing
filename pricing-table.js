@@ -11,10 +11,10 @@ const products = [
 ];
 
 const tableBody = document.getElementById("productRows");
-const minLimits = { annual: 100000, semiAnnual: 50000, monthly: 10000 };
-const maxLimits = { annual: 11500000, semiAnnual: 5800000, monthly: 1000000 };
-const minLimitsCompliance = { annual: 50000, semiAnnual: 25000, monthly: 5000 };
-const maxLimitsCompliance = { annual: 500000, semiAnnual: 250000, monthly: 50000 };
+const minLimits = { annual: 1000, semiAnnual: 500, monthly: 100 };
+const maxLimits = { annual: 115000, semiAnnual: 580, monthly: 100 };
+const minLimitsCompliance = { annual: 500, semiAnnual: 250, monthly: 50 };
+const maxLimitsCompliance = { annual: 5000, semiAnnual: 2500, monthly: 500 };
 
 // Populate table
 products.forEach((product, index) => {
